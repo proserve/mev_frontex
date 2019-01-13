@@ -1,8 +1,9 @@
 # MevFrontex
 
 ## Assignment
+First fork this repository into your personal account and commit all the changes to your repository.
 
-I would like you to implement this template.
+We would like you to implement this template.
 
   * Check template.png in the root directory.
   * HTML file is in `lib/mev_frontex_web/templates/page/index.html.eex` (check Elixir EEX for more information)
