@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render correctly in "debug" mode 1`] = `
+<div
+  className="trans-list"
+>
+  <div
+    className="header"
+  >
+    <h2>
+      Transactions
+    </h2>
+    <div
+      className="search-form"
+    >
+      <SVGInline
+        classSuffix="-svg"
+        cleanup={Array []}
+        cleanupExceptions={Array []}
+        component="span"
+        svg={null}
+      />
+      <input
+        onChange={[Function]}
+        placeholder="Search"
+        type="search"
+        value=""
+      />
+    </div>
+  </div>
+  <table>
+    <thead>
+      <tr
+        className="head"
+      >
+        <th
+          key="date"
+          onClick={[Function]}
+        >
+          Date
+        </th>
+        <th
+          key="referenceNo"
+          onClick={[Function]}
+        >
+          Reference No
+        </th>
+        <th
+          key="orderNo"
+          onClick={[Function]}
+        >
+          OrderNo
+        </th>
+        <th
+          key="paymentType"
+          onClick={[Function]}
+        >
+          Payment Type
+        </th>
+        <th
+          key="totalAmount"
+          onClick={[Function]}
+        >
+          Total Amount
+        </th>
+        <th
+          key="balance"
+          onClick={[Function]}
+        >
+          Balance
+        </th>
+        <th
+          key="status"
+          onClick={[Function]}
+        >
+          Status
+        </th>
+      </tr>
+    </thead>
+    <tbody />
+  </table>
+</div>
+`;

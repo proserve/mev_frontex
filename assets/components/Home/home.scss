@@ -1,0 +1,81 @@
+.container {
+  margin: 30px 20px;
+}
+
+.breadcrumbs {
+  font-size: 1.1em;
+  text-transform: uppercase;
+  font-weight: 500;
+  word-spacing: 1.5px;
+  letter-spacing: 1px;
+  margin-right: 30px;
+
+  .left {
+    color: #89898a;
+  }
+}
+
+.circle {
+  width: 16px;
+  height: 16px;
+  border-radius: 30px;
+  margin: 5px 20px 5px 5px;
+}
+
+.details {
+  margin-top: 20px;
+  margin-right: 30px;
+
+  .title {
+    font-size: 1.25em;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-left: 20px;
+  }
+
+  .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px -20px 0px;
+    .box {
+      display: flex;
+      align-items: center;
+      background-color: white;
+      float: left;
+      padding: 15px;
+      border-radius: 6px;
+      position: relative;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+      transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+      margin-bottom: 10px;
+      margin-left: 20px;
+      width: 280px;
+      &:hover {
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+        cursor: pointer;
+      }
+
+      .yellow-circle {
+        @extend .circle;
+        background-color: #f7c057;
+      }
+
+      .green-circle {
+        @extend .circle;
+        background-color: #009a3c;
+      }
+
+      .name {
+        margin-bottom: 5px;
+        font-size: 1.2em;
+      }
+
+      .price {
+        font-size: 1.8em;
+        font-weight: 500;
+      }
+    }
+  }
+}
+

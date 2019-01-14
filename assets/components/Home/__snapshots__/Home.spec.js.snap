@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should render correctly in "debug" mode 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="breadcrumbs"
+  >
+    <span
+      className="left"
+    >
+      customer list
+    </span>
+    <span>
+       / customer details
+    </span>
+  </div>
+  <div
+    className="details"
+  >
+    <span
+      className="title"
+    >
+      account details
+    </span>
+    <Cards
+      cards={
+        Array [
+          Object {
+            "color": "yellow",
+            "name": "Trading Limit",
+            "price": "AED 193,655,500.00",
+          },
+          Object {
+            "color": "green",
+            "name": "Security Deposit",
+            "price": "AED 50,000,000.00",
+          },
+          Object {
+            "color": "red",
+            "name": "Trading Limit",
+            "price": "AED 5,344,500.00",
+          },
+        ]
+      }
+    />
+  </div>
+  <h1
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    Loading...
+  </h1>
+</div>
+`;

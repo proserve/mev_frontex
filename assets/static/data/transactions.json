@@ -1,0 +1,52 @@
+[
+  {
+    "date": "2018/10/05",
+    "referenceNo": "REF984023458798",
+    "orderNo": "ORD234092834",
+    "paymentType": "Debit",
+    "totalAmount": "1,068,900.00",
+    "currency": "AED",
+    "balance": "193,655,500.00",
+    "status": "-"
+  },
+  {
+    "date": "2018/10/04",
+    "referenceNo": "REF984022198798",
+    "orderNo": "ORD234099934",
+    "paymentType": "Credit",
+    "totalAmount": "1,068,900.00",
+    "currency": "AED",
+    "balance": "193,655,973.00",
+    "status": "-"
+  },
+  {
+    "date": "2018/10/03",
+    "referenceNo": "REF984023194798",
+    "orderNo": "ORD234090984",
+    "paymentType": "Debit",
+    "totalAmount": "1,068,900.00",
+    "currency": "AED",
+    "balance": "193,432,500.00",
+    "status": "-"
+  },
+  {
+    "date": "2018/10/02",
+    "referenceNo": "REF989234458798",
+    "orderNo": "ORD2245628934",
+    "paymentType": "Debit",
+    "totalAmount": "1,068,900.00",
+    "currency": "AED",
+    "balance": "193,800,500.00",
+    "status": "-"
+  },
+  {
+    "date": "2018/10/01",
+    "referenceNo": "REF955454578798",
+    "orderNo": "ORD2323423834",
+    "paymentType": "Credit",
+    "totalAmount": "1,068,900.00",
+    "currency": "AED",
+    "balance": "193,655,600.00",
+    "status": "-"
+  }
+]

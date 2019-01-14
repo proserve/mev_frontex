@@ -1,0 +1,20 @@
+body {
+  font-family: "Product Sans";
+  font-weight: 400;
+  background-color: #f4f4f5;
+  font-size: 14px;
+  color: #313131;
+}
+
+
+.circle {
+  width: 16px;
+  height: 16px;
+  border-radius: 30px;
+  margin: 5px 20px 5px 5px;
+}
+
+.red-circle {
+  @extend .circle;
+  background-color: #ff0e56;
+}
